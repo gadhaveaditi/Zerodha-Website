@@ -1,0 +1,75 @@
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.cardContainer-login {
+    height: 70vh;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80vw;
+    background: white;
+    box-shadow: 10px 10px 15px rgb(173, 173, 173);
+}
+
+/* -------------------- left ------------------- */
+
+.cardContainer_left-login {
+    /* flex: 0.6; */
+    padding: 2rem;
+    text-align: center;
+}
+
+.cardleft_heading-login{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.inputContainers-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.3rem;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+
+.inputRow-login {
+    width: fit-content;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.inputFiled-login {
+    padding-inline: 1.3rem;
+    padding-block: 0.8rem;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid silver;
+    width: 100%;
+}
+
+.buttonWithOutline-login {
+    padding: 0.8rem 1.3rem;
+    background: rgb(56, 126, 209);
+    width: 100%;
+    color : white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+/* -------------------- Right ------------------- */
+.cardContainer_right-login {
+    /* flex: 0.4; */
+    background-color: rgb(56, 126, 209);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
